@@ -23,7 +23,9 @@ export default function RootLayout({
   return (
     <html lang="en" className='h-screen'>
       <body>
-        <App children={children} />
+        <App>
+          {children}
+        </App>
       </body>
     </html>
   )

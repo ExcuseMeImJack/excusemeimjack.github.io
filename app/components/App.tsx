@@ -24,24 +24,16 @@ function App({ children }: imports) {
   return (
     isClient ? (
       <div>
-        <BrowserView>
-          <Header />
-          <div className='m-16 h-[calc(100vh-18rem)] flex flex-col gap-16 justify-center items-center'>
-            <div className='flex items-center justify-center w-full'>{children}</div>
-            <div className='lg:flex gap-10 sm:hidden fixed bottom-10'>
-              <ArrowUp />
-              <ArrowDown />
+          <div className='flex justify-center items-center h-screen'>
+            <div className='flex flex-col gap-5 text-2xl font-bold font-Han text-center'>
+              <div>
+                <h1>Jack Roybal's Portfolio</h1>
+                <h1>Has Moved Domains</h1>
+              </div>
+              <div className='border-b-2 border-zinc-700'/>
+              <button onClick={() => window.location.href='https://jroybaldev.vercel.app/'} className="btn glass text-zinc-200">Click To Go!</button>
             </div>
           </div>
-        </BrowserView>
-
-        <MobileView>
-          <div>
-            <div className='flex sm:my-2 h-screen'>{children}</div>
-          </div>
-          <MobileNavTop/>
-          <MobileNav />
-        </MobileView>
       </div>
     ) : (
       <div>

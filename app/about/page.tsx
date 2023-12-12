@@ -57,8 +57,8 @@ function About() {
             </div>
             <div id='about-description'>
               <h1 className='font-Han font-bold lg:text-4xl md:text-xl w-fit mt-5'>About Me</h1>
-              <h2 className='font-Aobo xl:text-2xl lg:text-md md:text-sm md:flex sm:hidden w-fit'>I'm a software engineer who enjoys writing, video editing, playing games and watching terrible movies. I love spending my time coding new things so I can learn more. If you're interested in finding out more about me; check out the video above or feel free to look at my projects!</h2>
-              <h2 className='font-Aobo md:hidden sm:text-sm w-fit'>I'm a software engineer who enjoys writing, video editing, playing games and watching terrible movies. I love spending my time coding new things so I can learn more.</h2>
+              <h2 className='font-Aobo xl:text-2xl lg:text-md md:text-sm md:flex sm:hidden w-fit'>I&apos;m a software engineer who enjoys writing, video editing, playing games and watching terrible movies. I love spending my time coding new things so I can learn more. If you&apos;re interested in finding out more about me; check out the video above or feel free to look at my projects!</h2>
+              <h2 className='font-Aobo md:hidden sm:text-sm w-fit'>I&apos;m a software engineer who enjoys writing, video editing, playing games and watching terrible movies. I love spending my time coding new things so I can learn more.</h2>
             </div>
           </div>
           <div id='right' className='flex flex-col items-center'>
@@ -84,8 +84,8 @@ function About() {
                   <figure><img className='rounded-2xl shadow-2xl' src={profilePic.src} alt="Profile Pic" /></figure>
                 </div>
                 <div className=' font-Han'>
-                  <h2 className='sm:flex xxs:hidden text-xl'>I'm a software engineer who enjoys writing, video editing, playing games and watching terrible movies. I love spending my time coding new things so I can learn more. If you're interested in finding out more about me; check out the video above or feel free to look at my projects!</h2>
-                  <h2 className='sm:hidden xxs:flex text-sm'>I'm a software engineer who enjoys writing, video editing, and watching terrible movies. I love spending my time coding new things so I can learn more.</h2>
+                  <h2 className='sm:flex xxs:hidden text-xl'>I&apos;m a software engineer who enjoys writing, video editing, playing games and watching terrible movies. I love spending my time coding new things so I can learn more. If you&apos;re interested in finding out more about me; check out the video above or feel free to look at my projects!</h2>
+                  <h2 className='sm:hidden xxs:flex text-sm'>I&apos;m a software engineer who enjoys writing, video editing, and watching terrible movies. I love spending my time coding new things so I can learn more.</h2>
                 </div>
               </div>
 

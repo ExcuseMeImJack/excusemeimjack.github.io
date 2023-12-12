@@ -39,8 +39,8 @@ export default function Home() {
             <div className='w-1/4 flex flex-col justify-center items-center'>
               <div className='bg-gradient-to-b from-zinc-300 via-violet-300 to-violet-700 text-transparent bg-clip-text h-fit font-Han font-bold xl:text-7xl lg:text-5xl md:text-3xl sm:text-xl pb-5'>
                 <h2>Hello.</h2>
-                <h2>I'm Jack</h2>
-                <h2 className=''>and I'm a</h2>
+                <h2>I&apos;m Jack</h2>
+                <h2 className=''>and I&apos;m a</h2>
                 <h2 className='w-full'>{jobStatus + "."}.</h2>
               </div>
             </div>
@@ -61,8 +61,8 @@ export default function Home() {
             <div className='bg-zinc-300 xxs:rounded-2xl sm:rounded-3xl xxs:p-5 sm:p-10'>
               <div className='flex flex-wrap xxs:gap-1 sm:gap-2 xxs:text-xl sm:text-4xl font-Han font-bold bg-gradient-to-b from-zinc-900 via-zinc-800 to-violet-700 text-transparent bg-clip-text h-fit'>
                 <h1>Hello.</h1>
-                <h1> I'm Jack</h1>
-                <h1> and I'm a</h1>
+                <h1> I&apos;m Jack</h1>
+                <h1> and I&apos;m a</h1>
                 <h1> {jobStatus + "."}</h1>
               </div>
             </div>
