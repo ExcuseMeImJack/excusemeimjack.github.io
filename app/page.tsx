@@ -1,22 +1,8 @@
-'use client'
+import React from 'react'
 
-import React, { useEffect, useState } from 'react'
-
-type imports = {
-  children: React.ReactNode
-}
-
-function App() {
-
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-    setIsClient(true);
-  }, [])
-
+function Page() {
   return (
-    isClient ? (
-      <div>
+    <div>
           <div className='flex justify-center items-center h-screen'>
             <div className='flex flex-col gap-5 text-2xl font-bold font-Han text-center'>
               <div>
@@ -28,12 +14,7 @@ function App() {
             </div>
           </div>
       </div>
-    ) : (
-      <div>
-
-      </div>
-    )
   )
 }
 
-export default App
+export default Page
