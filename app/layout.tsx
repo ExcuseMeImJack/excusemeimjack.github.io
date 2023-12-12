@@ -1,10 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Header from './components/Header'
-import ArrowUp from './components/ArrowUp'
-import ArrowDown from './components/ArrowDown'
-import profilePic from './images/pro-pic.png'
 import App from './components/App'
 
 const inter = Inter({ subsets: ['latin'] })
