@@ -79,7 +79,6 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./out
-W
   # Deployment job
   deploy:
     environment:
