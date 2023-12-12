@@ -7,22 +7,23 @@ import { GlobeAmericasIcon } from '@heroicons/react/24/solid';
 import { SocialIcon } from 'react-social-icons';
 import { BrowserView, MobileView } from 'react-device-detect';
 
-type Project = {
-  name: string;
-  endpoint: string;
-  description: string;
-  logo: string;
-  isFeatured: boolean;
-};
+type ProjectSlug = {
+  endpoint: string
+}
 
-type ProjectPageProps = {
-  projectName: { slug: string };
-};
+export async function generateStaticParams() {
+  const projects = await fetch('https://.../projects').then((res) => res.json())
 
-function ProjectPage({ params }: { params: { name: string } }) {
+  return projects.map((project: ProjectSlug) => ({
+    slug: project.endpoint
+  }))
+}
+
+function ProjectPage({ params }: any) {
+  const {slug} = params;
   const router = useRouter();
 
-  const project = projects.find((project) => project.endpoint === params.name);
+  const project = projects.find((project) => project.endpoint === slug);
 
   return (
     <>
