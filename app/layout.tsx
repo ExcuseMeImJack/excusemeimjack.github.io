@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en" className='h-screen'>
       <body>
         <App>
-          {children}
+
         </App>
       </body>
     </html>

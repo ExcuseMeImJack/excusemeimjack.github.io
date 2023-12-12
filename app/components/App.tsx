@@ -6,7 +6,7 @@ type imports = {
   children: React.ReactNode
 }
 
-function App({ children }: imports) {
+function App() {
 
   const [isClient, setIsClient] = useState(false);
 
