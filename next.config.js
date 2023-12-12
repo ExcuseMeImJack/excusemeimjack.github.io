@@ -2,7 +2,8 @@
 const nextConfig = {
   output: 'export',
   images: {
-    domains: ["i.imgur.com"]
+    domains: ["i.imgur.com"],
+    unoptimized: true
   }
 }
 

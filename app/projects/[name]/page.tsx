@@ -1,29 +1,51 @@
 'use client'
-
-import React, { useState } from 'react'
-import projects from '../projects.json'
-import { useRouter } from 'next/navigation';
-import { GlobeAmericasIcon } from '@heroicons/react/24/solid';
+import React from 'react';
+import projects from '../projects.json';
+import { useRouter } from 'next/router';
 import { SocialIcon } from 'react-social-icons';
 import { BrowserView, MobileView } from 'react-device-detect';
+
+export async function getStaticPaths() {
+  const paths = projects.map((project) => ({
+    params: { name: project.endpoint },
+  }));
+
+  return { paths, fallback: false };
+}
+
+export async function getStaticProps({ params }: { params: { name: string } }) {
+  const project = projects.find((project) => project.endpoint === params.name);
+
+  return { props: { project } };
+}
+
+type Image = {
+  url: string;
+  isVideo: boolean;
+};
+
+type Video = {
+  url: string;
+  thumbnail: string;
+  title: string;
+};
 
 type Project = {
   name: string;
   endpoint: string;
   description: string;
+  longDescription: string;
   logo: string;
   isFeatured: boolean;
+  github: string;
+  url: string;
+  features: string[];
+  images: Image[];
+  videos: Video[];
 };
 
-type ProjectPageProps = {
-  projectName: { slug: string };
-};
-
-function ProjectPage({ params }: { params: { name: string } }) {
+function ProjectPage(project : Project) {
   const router = useRouter();
-
-  const project = projects.find((project) => project.endpoint === params.name);
-
   return (
     <>
       <BrowserView>
