@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Watchboxd",
+    "endpoint": "watchboxd",
+    "url": "https://watchboxd.onrender.com",
+    "github": "https://github.com/ExcuseMeImJack/watchboxd",
+    "logo": "https://i.imgur.com/z2FzWoU.png",
+    "description": "A web app for viewing film info, creating watchlists, and connecting with friends to share movie preferences.",
+    "longDescription": "A multi-page web application where users can view film information, create watchlists and follow their friends to see their likes and watches.",
+    "images": [
+      {
+        "isVideo": false,
+        "thumbnail": "",
+        "url": "https://i.imgur.com/JDdr2Dx.png"
+      },
+      {
+        "isVideo": false,
+        "thumbnail": "",
+        "url": "https://i.imgur.com/s6Kvkqu.png"
+      },
+      {
+        "isVideo": false,
+        "thumbnail": "",
+        "url": "https://i.imgur.com/1UvUvex.png"
+      },
+      {
+        "isVideo": false,
+        "thumbnail": "",
+        "url": "https://i.imgur.com/MJ7TaQL.png"
+      }
+    ],
+    "videos": [
+      {
+        "thumbnail": "https://i.imgur.com/cHWVEQa.jpg",
+        "url": "https://youtu.be/OmbibuK4d8U?si=A1pwKFfhGrVae3qY",
+        "title": "Watchboxd Project Walkthrough",
+        "description": "A short walkthrough going over Watchboxd with a demo of a functional React components."
+      }
+    ],
+    "features": [
+      "Explore Films and Lists to find new Films!",
+      "Search for Films by Title, Genre, Director or Keywords!"
+    ],
+    "isFeatured": true
+  },
+  {
+    "name": "Asante",
+    "endpoint": "asante",
+    "url": "https://asante.onrender.com",
+    "github": "https://github.com/ExcuseMeImJack/asante",
+    "logo": "https://i.imgur.com/pp6UdjR.png",
+    "description": "A robust web app for task management, allowing users to create project boards with full CRUD functionality for sections and tasks.",
+    "longDescription": "A complete task management web application where users can create project boards that utilizes full CRUD functionality towards a board’s sections and tasks.",
+    "images": [
+      {
+        "isVideo": false,
+        "thumbnail": "",
+        "url": "https://i.imgur.com/wLFIOn6.png"
+      },
+      {
+        "isVideo": false,
+        "thumbnail": "",
+        "url": "https://i.imgur.com/nDjczGm.png"
+      },
+      {
+        "isVideo": false,
+        "thumbnail": "",
+        "url": "https://i.imgur.com/xg12cl1.png"
+      },
+      {
+        "isVideo": false,
+        "thumbnail": "",
+        "url": "https://i.imgur.com/MsePIKd.png"
+      },
+      {
+        "isVideo": false,
+        "thumbnail": "",
+        "url": "https://i.imgur.com/v7cTLnS.png"
+      }
+    ],
+    "videos": [],
+    "features": [],
+    "isFeatured": false
+  },
+  {
+    "name": "Relive",
+    "endpoint": "relive",
+    "url": "https://relive.onrender.com",
+    "github": "https://github.com/ExcuseMeImJack/relive",
+    "logo": "https://i.imgur.com/IWqrstZ.png",
+    "description": "A full-stack Express web app offering an Airbnb-inspired immersive experience.",
+    "longDescription": "A full-stack web application built using Express which provides users with an immersive experience inspired by Airbnb.",
+    "images": [
+      {
+        "isVideo": false,
+        "thumbnail": "",
+        "url": "https://i.imgur.com/Vi7hxtN.png"
+      },
+      {
+        "isVideo": false,
+        "thumbnail": "",
+        "url": "https://i.imgur.com/pNtbTAP.png"
+      },
+      {
+        "isVideo": false,
+        "thumbnail": "",
+        "url": "https://i.imgur.com/eV9BIc5.png"
+      }
+    ],
+    "videos": [],
+    "features": [],
+    "isFeatured": false
+  }
+]
